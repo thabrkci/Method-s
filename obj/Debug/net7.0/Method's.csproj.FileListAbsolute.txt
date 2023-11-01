@@ -1,0 +1,14 @@
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\bin\Debug\net7.0\Method's.exe
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\bin\Debug\net7.0\Method's.deps.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\bin\Debug\net7.0\Method's.runtimeconfig.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\bin\Debug\net7.0\Method's.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\bin\Debug\net7.0\Method's.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.AssemblyInfoInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.AssemblyInfo.cs
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.csproj.CoreCompileInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\refint\Method's.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\Method's.genruntimeconfig.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Method's\obj\Debug\net7.0\ref\Method's.dll
