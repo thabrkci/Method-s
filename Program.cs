@@ -1,55 +1,57 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using System;
 
-namespace Method_s;
-
-class Program
+namespace Methods
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Method Tanımlama(Definition)");
-        /*Methodları parçalara ayırmak için kullanılır,tek başlarına yazılamazlar bir class içine 
-        yazılmış olmalı bir kodu düzeltmek için kolaylaştırıcıdır.*/
-        //Erişim_belirteci geri_dönüştipi metot-adı(parametre listesi/argüman)
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Method Definition");
+            /* Methods are used to break down code into smaller, manageable parts. 
+               They cannot be written standalone; they must be written within a class. 
+               Methods are beneficial for code organization and readability. */
 
-        int a = 2;
-        int b = 3;
-        Console.WriteLine(a+b);
+            int a = 2;
+            int b = 3;
 
-        int accept = plus(a,b);
-        
-        Console.WriteLine(accept);
+            // Using the plus method to add two numbers
+            int result = Plus(a, b);
+            Console.WriteLine("Result of a + b: " + result);
 
-        themethod home = new themethod();
-        home.Printforscreen(Convert.ToString(accept));
+            // Creating an instance of the 'themethod' class
+            Themethod home = new Themethod();
 
-        int plus2 = home.plusplus(a,b);
-        home.Printforscreen(Convert.ToString(plus2));
-        
+            // Using the Printforscreen method to print the result
+            home.Printforscreen(Convert.ToString(result));
 
+            // Using the plusplus method to increment and add two numbers
+            int result2 = home.Plusplus(a, b);
+            home.Printforscreen(Convert.ToString(result2));
+        }
 
-    }
+        // Defining the 'Plus' method to add two integers
+        static int Plus(int value1, int value2)
+        {
+            // The method takes two parameters (value1 and value2) and returns their sum
+            return (value1 + value2);
+        }
 
-    static int plus (int value1 , int value2)//Yeni method.
-    //Burada değer parametresi yazdık ve a ve b nin parametlerini verdik
-    //Methoda 2 parametre verdik
-    //Methoda erişmek için static olması gerekli static methoda static method erişebilir
-    //value1 ve value 2 a ve b ye değer atamasıdır.
-    {
-        return (value1 + value2);//Geri dönüş
-    }
+        // Creating a class named 'Themethod'
+        class Themethod
+        {
+            // Method to print a string to the console
+            public void Printforscreen(string message)
+            {
+                Console.WriteLine(message);
+            }
 
-    class themethod 
-    {
-       public void Printforscreen(string loop)
-       {
-        Console.WriteLine(loop);
-       }
-     
-     public int plusplus (int value1,int value2)
-     {
-        value1+=1;
-        value2+=1;
-        return value1 + value2;
-     }
+            // Method to increment and add two integers
+            public int Plusplus(int value1, int value2)
+            {
+                value1 += 1;
+                value2 += 1;
+                return value1 + value2;
+            }
+        }
     }
 }
